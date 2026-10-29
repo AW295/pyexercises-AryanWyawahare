@@ -40,3 +40,20 @@ for _ in range(5):
 ```
 
 What loop control variable does `range(5)` produce?
+
+---
+## 2026-10-29 09:57, in .
+
+**Me:** How to get user input in python
+
+**Tutor:**
+
+Getting user input in Python is done with the `input()` function.
+
+```python
+# This function asks the user for text and returns it as a string
+user_text = input("Enter your message: ")
+print("You entered:", user_text)
+```
+
+What does the `input()` function always return?
