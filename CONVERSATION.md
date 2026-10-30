@@ -57,3 +57,33 @@ print("You entered:", user_text)
 ```
 
 What does the `input()` function always return?
+
+---
+## 2026-10-29 22:19, in .
+
+**Me:** How to use strings
+
+**Tutor:**
+
+Strings are sequences of characters enclosed in quotes.
+
+```python
+# Creating strings
+greeting = "Hello"
+name = 'World'
+
+# Combining strings (concatenation)
+full_greeting = greeting + " " + name
+
+# String methods
+uppercase = full_greeting.upper()
+lowercase = full_greeting.lower()
+
+# Formatting strings
+formatted = f"{greeting}, {name}!"
+
+# Length of a string
+length = len(full_greeting)
+```
+
+What is the correct way to embed a variable inside a string using f-strings?

@@ -26,17 +26,16 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In: Name and age of user
-# 2. Process: adding my name and age in a sentence
-# 3. Out: My name and age
-# 4. My two fields, and what I would do with them: I just got my name and age in the same sentence
+# 1. In:
+# 2. Process:
+# 3. Out:
+# 4. My two fields, and what I would do with them:
 
 
 # Your code below
-name = input("Aryan")
-age = input("24")
-print("My name is", name)
-print("My age is", age)
-print("My name is", name)
-print("My age is", age)
-print("my name is:", name,"my age is", age)
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("My name is ", name)
+print("My age is ", age)
+
+print("My name is " + name + " and my age is " + age)

@@ -32,10 +32,11 @@ DELIVERABLE
 
 # Your code below
 number_1 = int(input("Enter number 1:256"))
-number_2 = int(input("Enter number 2: 825"))
+number_2 = int(input("Enter number 2:425"))
 
 print("The number 1 is: ", number_1)
 print("The number 2 is: ", number_2)
-
-sum = number_1 + number_2
-print("sum")
+print("The sum is: ", number_1 + number_2)
+print("The difference is: ", number_1 - number_2)
+print("The product is: ", number_1 * number_2)
+print("The quotient is: ", number_1 / number_2)

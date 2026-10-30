@@ -28,10 +28,29 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My stop condition, my attempt limit, my summary:
+# 1. In: The user's answer to whether they want to continue.
+# 2. Process: Ask up to five times; ignore capitalization and surrounding spaces.
+# 3. Out: A message for each answer and a summary.
+# 4. Stop on "no" or after five attempts. The summary contains attempts and the
+#    reason the loop stopped.
 
 
 # Your code below
+attempts = 0
+stop_reason = "maximum attempts reached"
+
+while attempts < 5:
+    attempts += 1
+    print(f"Attempt number: {attempts}")
+    answer = input("Do you want to continue? (yes/no): ").strip().lower()
+
+    if answer == "yes":
+        print("You chose to continue.")
+    elif answer == "no":
+        print("You chose to stop.")
+        stop_reason = "the user answered no"
+        break
+    else:
+        print("Invalid input. Please enter 'yes' or 'no'.")
+
+print(f"Summary: {attempts} attempt(s); stopped because {stop_reason}.")
