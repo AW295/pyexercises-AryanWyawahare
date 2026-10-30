@@ -26,10 +26,34 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What my list is about, and what I computed from it:
+# 1. In:list of numbers
+# 2. Process:the list is built by hand and then sorted and the last item is removed
+# 3. Out:the whole list, one item of my choice, the list sorted, and something computed from it
+# 4. What my list is about, and what I computed from it:list of numbers and I computed the last item in the list after sorting it. The last item is interesting because it is the largest number in the list.
 
 
 # Your code below
+number_1 = 10
+number_2 = 45
+number_3 = 68
+number_4 = 93
+number_5 = 73
+number_6 = 99
+
+print(number_1)
+print(number_2)
+print(number_3)
+print(number_4)
+print(number_5)
+print(number_6)
+
+list = [44, 58, 61, 73, 8, 9, 19, 11, 2, 1]
+
+print(list)
+print(list[3])
+
+list.sort()
+print("Sorted list:", list)
+
+list.pop()
+print("List after removing last item:", list)

@@ -151,3 +151,55 @@ length = len(message)  # TODO: what will length be?
 ```
 
 What does `len()` return when given an empty list `[]`?
+
+---
+## 2026-10-30 07:39, in .
+
+**Me:** how to use if, elif
+
+**Tutor:**
+
+Conditional branching with if, elif, and else.
+
+```python
+# TODO: decide which discount to apply
+price = 100
+quantity = 3
+
+if quantity >= 5:
+    discount = 0.20   # 20 %
+elif quantity >= 2:
+    discount = 0.10   # 10 %
+else:
+    discount = 0.00   # 0 %
+
+final_price = price * (1 - discount)
+```
+
+Which argument does the condition belong to in the `elif` line?
+
+---
+## 2026-10-30 07:45, in .
+
+**Me:** how to sort a list in python
+
+**Tutor:**
+
+Sorting a list in Python.
+
+Use the built-in `sorted()` function to return a new sorted list, or call the list method `.sort()` to sort the list in place.
+
+Pattern with `.sort()`:
+
+```python
+# TODO: replace the toy list with your real list
+toy_list = [3, 1, 4, 1, 5, 9]
+
+# TODO: call the method that sorts the list in place
+toy_list.___
+
+# TODO: print the sorted list
+print(___)
+```
+
+What is the difference between `sorted(toy_list)` and `toy_list.sort()`?
