@@ -24,10 +24,14 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In: One sentence typed by the user - a string
+# 2. Process: Apply four different string methods to transform the input
+# 3. Out: Four transformed strings
 # 4. My four transformations, and when each is useful:
+# strip(): cleaning user input, removing accidental spaces at the start and end of it
+# upper(): making text ALL CAPS
+# lower(): making text all lowercase
+# title(): displaying names or headings with each word capitalised
 
 
 # Your code below

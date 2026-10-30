@@ -87,3 +87,21 @@ length = len(full_greeting)
 ```
 
 What is the correct way to embed a variable inside a string using f-strings?
+
+---
+## 2026-10-30 07:18, in .
+
+**Me:** how to input user input in python
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-30 07:18, in .
+
+**Me:** how to use input function
+
+**Tutor:**
+
+Refused, off topic.
