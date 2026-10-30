@@ -105,3 +105,49 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-30 07:28, in .
+
+**Me:** how to get user input in python
+
+**Tutor:**
+
+Reading user input is done with the built-in function input().
+
+```python
+# TODO: ask the user for their name and store it
+user_name = ______(______)
+```
+
+What is the exact return type of input()?
+
+---
+## 2026-10-30 07:34, in .
+
+**Me:** how to use lenght function
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-30 07:34, in .
+
+**Me:** how to use len
+
+**Tutor:**
+
+The `len()` function returns the number of items in an object.
+
+```python
+# Counting items in a list
+fruits = ["apple", "banana", "cherry"]
+count = len(fruits)  # TODO: what will count be?
+
+# Counting characters in a string
+message = "hello"
+length = len(message)  # TODO: what will length be?
+```
+
+What does `len()` return when given an empty list `[]`?

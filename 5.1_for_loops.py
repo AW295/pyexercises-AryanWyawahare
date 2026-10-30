@@ -31,7 +31,7 @@ DELIVERABLE
 
 
 # Your code below
-names = ["Sugumaran", "Aryan", "Arya", "James"]
+names = ["Sugumaran", "Aryan", "Arya", "James", "Louis", "Lily", "Mia", "Noah", "Olivia", "Sophia"]
 
 print("List of names and their lengths:")
 
